@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://use.fontawesome.com/c675e607bb.js"></script>
+
+    <title>Ping | Coming Soon</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="images/logo.svg" alt="logo" class="logo" />
+        <p class="header__text">We are launching <span>soon!</span></p>
+        <p>Subscribe and get notified</p>
+        <div class="mailing__list">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="email"
+            placeholder="Your email address..."
+            autocomplete="false"
+          />
+          <button class="notify__btn" type="button" id="notify__btn">
+            Notify Me
+          </button>
+        </div>
+        <p class="alert" id="alert" aria-hidden="true">
+          Email address is invalid.
+        </p>
+      </div>
+      <div class="main">
+        <img
+          src="images/illustration-dashboard.png"
+          alt="illustration-dashboard"
+          class="dashboard__img"
+        />
+      </div>
+      <div class="footer">
+        <div class="icons">
+          <i class="fa fa-facebook icon" aria-hidden="true"></i>
+          <i class="fa fa-twitter icon" aria-hidden="true"></i>
+          <i class="fa fa-instagram icon" aria-hidden="true"></i>
+        </div>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
